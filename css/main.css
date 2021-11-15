@@ -64,6 +64,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .box-imagenes-index img {
@@ -153,7 +154,6 @@ body {
     margin-top: 4em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -171,7 +171,6 @@ body {
     margin-top: 4em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
