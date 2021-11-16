@@ -287,6 +287,14 @@ html {
         width: 100%;
     }
 
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-img img {
+        height: 25rem;
+    }
+
     .box-imagenes-index {
         height: 50rem;
         flex-direction: row;
@@ -496,6 +504,10 @@ html {
     #header img {
         height: 3rem;
         width: 100%;
+    }
+
+    .banner-img img {
+        height: 35rem;
     }
 
     .box-imagenes-index {
