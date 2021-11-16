@@ -7,11 +7,10 @@ html {
     font-size: 16px;
 }
 
-
-
 .container-fluid {
     padding: 0;
 }
+
 
 /**/
 .contenedor-principal {
@@ -30,6 +29,8 @@ html {
         /*INDEX*/
 
 
+
+
 /*HEADER*/
 #header {
     background: linear-gradient(to right, #1F1C18, #8E0E00);
@@ -43,9 +44,12 @@ html {
 }
 
 
+/*BANNER*/
 .banner-img img {
     width: 100%;
 }
+
+
 
 /*INDEX-MAIN*/
 
@@ -85,6 +89,12 @@ html {
     object-fit: cover;
 }
 
+
+
+
+
+
+
 /*FOOTER*/
 
 
@@ -99,6 +109,7 @@ html {
 
 .box-redes-sociales {
     width: 70%;
+    padding: 1rem 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,6 +161,10 @@ html {
     align-items: center;
 }
 
+.box-spotify {
+    border-radius: 5px;
+}
+
 .box-youtube {
     width: 100%;
     height: 43.75rem;
@@ -161,12 +176,11 @@ html {
 }
 
 
+
+
         /*Galeria*/
 
 
-.carousel {
-    margin-top: 3rem;
-}
 
 .carousel-img{
     height: 14rem;
@@ -180,11 +194,11 @@ html {
 }
 
 .gallery-img {
-    width: 18.125rem;
-    height: 18.125rem;
+    width: 18rem;
+    height: 18rem;
     object-fit: cover;
-    border: 1.5px solid #1F1C18;
 }
+
 
 
 /*MEDIA*/
@@ -212,19 +226,250 @@ html {
 }
 
 
+
         /**NOTICIAS*/
 
 
 .box-noticias {
     width: 100%;
     height: 150rem;
-    max-width: 18.75rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.noticias.img {
+.box-noticias1 {
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-noticias2 {
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.noticias-img {
+    height: 12rem;
+    object-fit: cover;
+}
 
 
+
+
+        /*MEDIAQUERY*/
+
+
+@media only screen and (min-width: 768px) {
+   
+    #header img {
+        height: 3rem;
+        width: 45%;
+    }
+
+    .box-imagenes-index {
+        height: 50rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+      
+    }
+
+    .box-discografia {
+        height: 70rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    
+    .box-media {
+        height: 45rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .box-spotify {
+        height: 45rem;
+    }
+    
+    .box-youtube {
+        width: 50%;
+        height: 45rem;
+        padding-left: 3.85rem;
+        margin-top: 0;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+    .carousel-img {
+        height: 24rem;
+        object-fit: cover;
+    }
+
+    .gallery {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: .625rem;
+    }
+
+    .media-live {
+        height: 55rem;
+    }
+
+    .live-title {
+        margin-bottom: 1.25rem;
+    }
+
+    .media-live iframe {
+        width: 30rem;
+        height: 17rem;
+    }
+
+    .box-noticias {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .box-noticias1 {
+        width: 50%;
+        height: 100rem;
+        justify-content: space-between;
+    }
+
+    .box-noticias2 {
+        width: 50%;
+        height: 100rem;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 18.75rem;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+   
+
+    #header img {
+        height: 3rem;
+        width: 30%;
+    }
+
+    .box-imagenes-index {
+        height: 50rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .box-imagenes-index img {
+        width: 45%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box-redes-sociales {
+        width: 40%;
+        padding: 1rem 2rem;
+    }
+
+    .box-discografia {
+        height: 90rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-discografias {
+        width: 25rem;
+        height: 25rem;
+    }
+    
+    .box-media {
+        width: 100%;
+        height: 45rem;
+        margin-bottom: 4rem;
+        justify-content: space-around;
+    }
+
+    .box-media iframe {
+        width: 25rem;
+        padding-left: .3125rem;
+    }
+    
+    .box-youtube {
+        width: 25rem;
+        padding: 0rem;
+    }
+
+    .box-youtube iframe {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .gallery {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: .625rem;
+    }
+
+    .media-live {
+        height: 85rem;
+    }
+
+    .live-title {
+        margin-bottom: 1.25rem;
+    }
+
+    .media-live iframe {
+        width: 43rem;
+        height: 25rem;
+    }
+
+
+
+
+    .box-noticias {
+        height: 80rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .box-noticias1 {
+        width: 50%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .box-noticias2 {
+        width: 50%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 25rem;
+    }
 }
