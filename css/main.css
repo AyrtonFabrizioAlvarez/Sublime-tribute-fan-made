@@ -205,6 +205,7 @@ html {
 
 .gallery-img {
     width: 18rem;
+    height: 16rem;
     object-fit: cover;
 }
 
@@ -329,12 +330,112 @@ html {
     }
 
     .gallery {
-        margin-top: 1rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: .625rem;
+        gap: .9375rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 10rem;
+        grid-template-areas: 
+        "img3 img3 img4 img5"
+        "img3 img3 img6 img6"
+        "img3 img3 img2 img2"
+        "img1 img1 img2 img2"
+        "img7 img8 img8 img8"
+        "img7 img8 img8 img8"
+        "img10 img10 img11 img11"
+        "img10 img10 img11 img11"
+        "img14 img14 img9 img13"
+        "img12 img12 img12 img12"
+        "img12 img12 img12 img12"
+        "img15 img15 img16 img16"
+        "img17 img17 img18 img18"
+        "img17 img17 img18 img18"
+        "img23 img23 img23 img23"
+        "img23 img23 img23 img23"
+        "img20 img20 img21 img22"
+        "img20 img20 img19 img19"
+        "img20 img20 img19 img19";
+    }
+
+    .box-gallery-img {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img1 {
+        grid-area: img1;
+    }
+    .img2 {
+        grid-area: img2;
+    }
+    .img3 {
+        grid-area: img3;
+    }
+    .img4 {
+        grid-area: img4;
+    }
+    .img5 {
+        grid-area: img5;
+    }
+    .img6 {
+        grid-area: img6;
+    }
+    .img7 {
+        grid-area: img7;
+    }
+    .img8 {
+        grid-area: img8;
+    }
+    .img9 {
+        grid-area: img9;
+    }
+    .img10 {
+        grid-area: img10;
+    }
+    .img11 {
+        grid-area: img11;
+    }
+    .img12 {
+        grid-area: img12;
+    }
+    .img13 {
+        grid-area: img13;
+    }
+    .img14 {
+        grid-area: img14;
+    }
+    .img15 {
+        grid-area: img15;
+    }
+    .img16 {
+        grid-area: img16;
+    }
+    .img17 {
+        grid-area: img17;
+    }
+    .img18 {
+        grid-area: img18;
+    }
+    .img19 {
+        grid-area: img19;
+    }
+    .img20 {
+        grid-area: img20;
+    }
+    .img21 {
+        grid-area: img21;
+    }
+    .img22 {
+        grid-area: img22;
+    }
+    .img23 {
+        grid-area: img23;
     }
 
     .media-live {
@@ -507,124 +608,9 @@ html {
         height: 55rem;
     }
 
-
-
-
-
-
-
-
     .gallery {
-        gap: 0rem .8rem;
-        margin: 0;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 14rem;
-        grid-template-areas: 
-        "img1 img1 img4 img5"
-        "img1 img1 img6 img6"
-        "img3 img3 img2 img2"
-        "img3 img3 img2 img2"
-        "img7 img8 img8 img8"
-        "img7 img8 img8 img8"
-        "img10 img10 img11 img11"
-        "img10 img10 img11 img11"
-        "img14 img14 img9 img13"
-        "img12 img12 img12 img12"
-        "img12 img12 img12 img12"
-        "img15 img15 img16 img16"
-        "img17 img17 img18 img18"
-        "img17 img17 img18 img18"
-        "img19 img19 img19 img19"
-        "img19 img19 img19 img19"
-        "img20 img20 img21 img22"
-        "img20 img20 img23 img23";
-        }
-
-        .gallery-img {
-            width: 100%;
-        }
-
-        .box-gallery-img {
-            margin: 0;
-        }
-
-        .img1 {
-            grid-area: img1;
-        }
-        .img2 {
-            grid-area: img2;
-        }
-        .img3 {
-            grid-area: img3;
-        }
-        .img4 {
-            grid-area: img4;
-        }
-        .img5 {
-            grid-area: img5;
-        }
-        .img6 {
-            grid-area: img6;
-        }
-        .img7 {
-            grid-area: img7;
-        }
-        .img8 {
-            grid-area: img8;
-        }
-        .img9 {
-            grid-area: img9;
-        }
-        .img10 {
-            grid-area: img10;
-        }
-        .img11 {
-            grid-area: img11;
-        }
-        .img12 {
-            grid-area: img12;
-        }
-        .img13 {
-            grid-area: img13;
-        }
-        .img14 {
-            grid-area: img14;
-        }
-        .img15 {
-            grid-area: img15;
-        }
-        .img16 {
-            grid-area: img16;
-        }
-        .img17 {
-            grid-area: img17;
-        }
-        .img18 {
-            grid-area: img18;
-        }
-        .img19 {
-            grid-area: img19;
-        }
-        .img20 {
-            grid-area: img20;
-        }
-        .img21 {
-            grid-area: img21;
-        }
-        .img22 {
-            grid-area: img22;
-        }
-        .img23 {
-            grid-area: img23;
-        }
-
-        
-
-
-
-
-
+        grid-template-rows: 13.75rem;
+    }
 
     .media-live {
         height: 85rem;
