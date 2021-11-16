@@ -620,6 +620,11 @@ html {
         height: 55rem;
     }
 
+    .carousel-img {
+        height: 36rem;
+    }
+
+
     .gallery {
         grid-template-rows: 13.75rem;
     }
