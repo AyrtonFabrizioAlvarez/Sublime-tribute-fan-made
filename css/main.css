@@ -276,7 +276,7 @@ html {
 
 
 @media only screen and (min-width: 768px) {
-   
+
 
     .nav-logo-link {
         width: 45%;
@@ -299,7 +299,7 @@ html {
         height: 50rem;
         flex-direction: row;
         flex-wrap: wrap;
-      
+
     }
 
     .box-discografia {
@@ -460,26 +460,37 @@ html {
     }
 
     .box-noticias {
-        height: 110rem;
+        height: 87rem;
         display: flex;
+        margin: 3rem 0rem;
         flex-direction: row;
         justify-content: space-between;
     }
 
     .box-noticias1 {
-        width: 50%;
-        height: 100rem;
+        width: 45%;
+        height: 100%;
         justify-content: space-between;
     }
 
     .box-noticias2 {
-        width: 50%;
-        height: 100rem;
+        width: 45%;
+        height: 100%;
         justify-content: space-between;
     }
 
     .card {
-        width: 18.75rem;
+        position: relative;
+    }
+
+    .card-body {
+        height: 11.375rem;
+    }
+
+    .btn-noticias {
+        position: absolute;
+        bottom: .825rem;
+        left: 1.25rem;
     }
 }
 
@@ -581,16 +592,27 @@ html {
         flex-direction: row;
     }
 
-    .img-discografias {
-        width: 25rem;
-        height: 25rem;
+    .box-discografia a {
         transition: all .5s ease-in-out;
+        height: 25rem;
+        width: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
 
-    .img-discografias:hover {
+    .box-discografia a:hover {
         transform: scale(1.1);
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px!important;
     }
+
+    .img-discografias {
+        width: 25rem;
+        height: 25rem;
+        margin: 0!important;
+    }
+ 
     
     .box-media {
         width: 100%;
@@ -643,25 +665,35 @@ html {
     }
 
     .box-noticias {
-        height: 80rem;
+        height: 88rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
     .box-noticias1 {
-        width: 50%;
+        width: 45%;
         height: 100%;
         justify-content: space-between;
     }
 
     .box-noticias2 {
-        width: 50%;
+        width: 45%;
         height: 100%;
         justify-content: space-between;
     }
 
     .card {
-        width: 25rem;
+        width: 100%;
     }
+
+    .card-img-top {
+        height: 15rem;
+    }
+
+    .card-body {
+        height: 11rem;
+        font-size: 1.2rem;
+    }
+
 }
