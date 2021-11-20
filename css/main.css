@@ -519,6 +519,7 @@ html {
 
     .banner-img img {
         height: 35rem;
+        object-fit: cover;
     }
 
     .box-imagenes-index {
