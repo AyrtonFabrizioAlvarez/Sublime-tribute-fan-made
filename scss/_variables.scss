@@ -2,3 +2,11 @@ $color-principal: #fff;
 $color-texto: #fff;
 $color-gradiente1: #8E0E00;
 $color-gradiente2: #1F1C18;
+
+
+@mixin flex-noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

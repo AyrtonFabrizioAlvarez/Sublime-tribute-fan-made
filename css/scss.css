@@ -176,7 +176,8 @@ html {
   height: 150rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  align-items: center; }
 
 .box-noticias1 {
   height: 100rem;
@@ -233,7 +234,7 @@ html {
     height: 24rem;
     object-fit: cover; }
   .gallery {
-    gap: .9375rem;
+    gap: .6rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 10rem;
@@ -352,18 +353,7 @@ html {
   .fab {
     transition: all .4s ease-in-out; }
   .fab:hover {
-    transform: rotate(360deg);
-    color: #d7d7d7; }
-  .fa-facebook:hover {
-    background-color: #ccc; }
-  .fa-instagram:hover {
-    background-color: #ccc; }
-  .fa-twitter:hover {
-    background-color: #ccc; }
-  .fa-youtube:hover {
-    background-color: #ccc; }
-  .fa-spotify:hover {
-    background-color: #ccc; }
+    transform: rotate(360deg); }
   .box-discografia {
     height: 90rem;
     display: flex;

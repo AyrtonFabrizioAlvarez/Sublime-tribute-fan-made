@@ -45,7 +45,7 @@
     }
     
     .box-youtube {
-        width: 50%;
+        width: (100%/2);
         height: 45rem;
         padding-left: 3.85rem;
         margin-top: 0;
@@ -61,7 +61,7 @@
     }
 
     .gallery {
-        gap: .9375rem;
+        gap: .6rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 10rem;
