@@ -1,0 +1,36 @@
+/*FOOTER*/
+
+
+#footer {
+    width: 100%;
+    background: linear-gradient(to left, $color-gradiente2, $color-gradiente1);
+    border-top: 1px solid #1F1C18;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-redes-sociales {
+    width: 70%;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text-creador {
+    margin: 0;
+    font-size: 1.2rem;
+    color: $color-texto;
+}
+
+.text-creador span {
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 0rem;
+}
+
+.fab {
+    color: $color-principal;
+}

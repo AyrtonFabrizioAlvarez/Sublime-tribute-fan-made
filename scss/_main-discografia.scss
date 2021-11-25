@@ -1,0 +1,45 @@
+        /*INDEX*/
+
+
+
+        /*DISCOGRAFIA*/
+
+
+.box-discografia {
+    width: 100%;
+    height: 124rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-discografias {
+    width: 18.125rem;
+    height: 18.125rem;
+    border: 1.5px solid #1F1C18;
+}
+
+.box-media {
+    width: 100%;
+    height: 70rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-spotify {
+    border-radius: 5px;
+}
+
+.box-youtube {
+    width: 100%;
+    height: 43.75rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

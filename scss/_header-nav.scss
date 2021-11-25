@@ -1,0 +1,21 @@
+/*HEADER*/
+#header {
+    background: linear-gradient(to right, $color-gradiente1, $color-gradiente2);
+    border-bottom: 1px solid #1F1C18;
+    padding: 0;
+}
+
+.nav-logo-link {
+    width: 60%;
+}
+
+#header img {
+    height: 3rem;
+    width: 100%;
+}
+
+.nav-link {
+    text-align: right;
+    padding-right: .5rem!important;
+    font-weight: 500;
+}

@@ -1,0 +1,39 @@
+@import "_variables";
+
+/*NORMALIZE*/
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+/**/
+.contenedor-principal {
+    background-color: $color-principal;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+
+}
+
+
+@import "_header-nav";
+@import "_banner";
+@import "_footer";
+@import "_main-index";
+@import "_main-discografia";
+@import "_main-galeria";
+@import "_main-noticias";
+@import "_mediaquery-768px";
+@import "_mediaquery-1024px";
