@@ -11,9 +11,11 @@
 
 .box-parrafo-index {
     margin: 2rem 0rem 4rem 0rem;
+    border-radius: 1%;
 }
 
 .box-parrafo-index p {
+    background-color: $color-principal;
     margin-bottom: 0;
     padding: .725rem;
     font-weight: 500;

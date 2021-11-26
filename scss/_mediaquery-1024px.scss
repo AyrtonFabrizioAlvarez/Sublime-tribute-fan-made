@@ -8,7 +8,7 @@
         width: 30%;
     }
 
-    .nav-link:hoverY {
+    .nav-link:hover {
         text-decoration: underline;
     }
 
@@ -170,6 +170,11 @@
     .card-body {
         height: 11rem;
         font-size: 1.2rem;
+    }
+
+    .main-contacto {
+        height: 34.5rem;
+        justify-content: center;
     }
 
 }
