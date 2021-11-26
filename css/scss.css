@@ -59,13 +59,15 @@ html {
 
 .text-creador {
   margin: 0;
-  font-size: 1.2rem;
+  padding: 0rem .4rem;
+  font-size: 1.1rem;
   color: #fff; }
 
 .text-creador span {
   font-style: italic;
   text-decoration: underline;
-  letter-spacing: 0rem; }
+  letter-spacing: 0rem;
+  font-size: 1.2rem; }
 
 .fab {
   color: #fff; }
