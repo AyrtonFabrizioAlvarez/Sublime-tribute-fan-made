@@ -331,6 +331,8 @@ html {
     justify-content: end; }
   .nav-logo-link {
     width: 30%; }
+  .nav-link:hover {
+    text-decoration: underline; }
   #header img {
     height: 3rem;
     width: 100%; }
