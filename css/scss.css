@@ -208,7 +208,8 @@ html {
   .banner-img {
     width: 100%; }
   .banner-img img {
-    height: 25rem; }
+    height: 25rem;
+    object-fit: cover; }
   .box-imagenes-index {
     height: 50rem;
     flex-direction: row;
