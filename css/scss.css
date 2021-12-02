@@ -151,9 +151,11 @@ html {
   align-items: center; }
 
 /*Galeria*/
+.carousel {
+  width: 100%; }
+
 .carousel-img {
-  width: 100%;
-  height: 14rem;
+  height: 18.75rem;
   object-fit: cover; }
 
 .gallery {
@@ -164,8 +166,7 @@ html {
 
 .gallery-img {
   width: 18rem;
-  height: 16rem;
-  object-fit: cover; }
+  height: 16rem; }
 
 /*MEDIA*/
 .box-media-live {
@@ -246,8 +247,6 @@ html {
     height: 45rem;
     padding-left: 3.85rem;
     margin-top: 0; }
-  .carousel {
-    width: 100%; }
   .carousel-img {
     height: 24rem; }
   .gallery {
