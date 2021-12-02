@@ -14,6 +14,14 @@
     border-radius: 1%;
 }
 
+.titulo-principal {
+    background-color: $color-principal;
+    margin: 0;
+    padding: 1rem 0rem;
+    text-align: center;
+    font-weight: bold;
+}
+
 .box-parrafo-index p {
     background-color: $color-principal;
     margin-bottom: 0;
