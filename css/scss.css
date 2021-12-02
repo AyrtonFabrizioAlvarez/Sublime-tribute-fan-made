@@ -152,7 +152,9 @@ html {
 
 /*Galeria*/
 .carousel-img {
-  height: 14rem; }
+  width: 100%;
+  height: 14rem;
+  object-fit: cover; }
 
 .gallery {
   margin-top: 3rem;
@@ -247,8 +249,7 @@ html {
   .carousel {
     width: 100%; }
   .carousel-img {
-    height: 24rem;
-    object-fit: cover; }
+    height: 24rem; }
   .gallery {
     gap: .6rem;
     display: grid;
