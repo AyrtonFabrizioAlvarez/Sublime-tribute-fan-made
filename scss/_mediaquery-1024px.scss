@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1024px) {
-   
+
     .navbar-collapse {
         justify-content: end;
     }
@@ -26,10 +26,9 @@
         height: 50rem;
         flex-direction: row;
         flex-wrap: wrap;
-    }
-
-    .box-imagenes-index img {
-        width: 45%;
+        img {
+            width: 45%;
+        }
     }
 
     #footer {
@@ -60,21 +59,16 @@
         height: 90rem;
         display: flex;
         flex-direction: row;
-    }
-
-    .box-discografia a {
-        transition: all .5s ease-in-out;
-        height: 25rem;
-        width: 25rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-
-    .box-discografia a:hover {
-        transform: scale(1.1);
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px!important;
+        a {
+            transition: all .5s ease-in-out;
+            height: 25rem;
+            width: 25rem;
+            &:hover {
+                transform: scale(1.1);
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px!important;
+            }
+        }
+        
     }
 
     .img-discografias {
@@ -82,8 +76,7 @@
         height: 25rem;
         margin: 0!important;
     }
- 
-    
+
     .box-media {
         width: 100%;
         height: 55rem;
@@ -101,10 +94,9 @@
         width: 25rem;
         height: 55rem;
         padding: 0rem;
-    }
-
-    .box-youtube iframe {
-        height: 12rem;
+        iframe {
+            height: 12rem;
+        }
     }
 
     .box-spotify {
@@ -128,15 +120,14 @@
 
     .media-live {
         height: 85rem;
+        iframe {
+            width: 43rem;
+            height: 25rem;
+        }
     }
 
     .live-title {
         margin-bottom: 1.25rem;
-    }
-
-    .media-live iframe {
-        width: 43rem;
-        height: 25rem;
     }
 
     .box-noticias {
@@ -151,7 +142,7 @@
         height: 100%;
         justify-content: space-between;
     }
- 
+
     .box-noticias2 {
         width: 45%;
         height: 100%;

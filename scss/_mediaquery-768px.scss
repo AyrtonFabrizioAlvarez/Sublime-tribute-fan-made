@@ -12,11 +12,10 @@
 
     .banner-img {
         width: 100%;
-    }
-
-    .banner-img img {
-        height: 25rem;
-        object-fit: cover;
+        img {
+            height: 25rem;
+            object-fit: cover;
+        }
     }
 
     .box-imagenes-index {

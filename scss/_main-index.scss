@@ -12,6 +12,12 @@
 .box-parrafo-index {
     margin: 2rem 0rem 4rem 0rem;
     border-radius: 1%;
+    p {
+        background-color: $color-principal;
+        margin-bottom: 0;
+        padding: .725rem;
+        font-weight: 500;
+    }
 }
 
 .titulo-principal {
@@ -22,12 +28,7 @@
     font-weight: bold;
 }
 
-.box-parrafo-index p {
-    background-color: $color-principal;
-    margin-bottom: 0;
-    padding: .725rem;
-    font-weight: 500;
-}
+
 
 .box-imagenes-index {
     width: 100%;
@@ -36,10 +37,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    img {
+        width: 18.125rem;
+        height: 18.125rem;
+        object-fit: cover;
+    }
 }
 
-.box-imagenes-index img {
-    width: 18.125rem;
-    height: 18.125rem;
-    object-fit: cover;
-}
+
