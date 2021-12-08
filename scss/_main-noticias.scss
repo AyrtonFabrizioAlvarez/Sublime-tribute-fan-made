@@ -7,6 +7,10 @@
     @include flex-noticias
 }
 
+.card {
+    width: 90%;
+}
+
 .box-noticias1 {
     height: 100rem;
     @include flex-noticias

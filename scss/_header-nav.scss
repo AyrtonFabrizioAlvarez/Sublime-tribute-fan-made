@@ -15,7 +15,10 @@
 }
 
 .nav-link {
-    text-align: right;
-    padding-right: .5rem!important;
+    text-align: center;
     font-weight: 500;
+}
+
+.nav-link:active {
+    text-decoration: underline;
 }

@@ -37,9 +37,11 @@ html {
   width: 100%; }
 
 .nav-link {
-  text-align: right;
-  padding-right: 0.5rem !important;
+  text-align: center;
   font-weight: 500; }
+
+.nav-link:active {
+  text-decoration: underline; }
 
 /*BANNER*/
 .banner-img img {
@@ -63,12 +65,15 @@ html {
 
 .text-creador {
   margin: 0;
-  padding: 0rem .4rem;
+  padding: 1rem .8rem;
+  text-align: center;
   font-size: 1.1rem;
   color: #F5F5F5; }
-  .text-creador span {
-    font-style: italic;
+  .text-creador a {
+    text-decoration: none;
+    color: #F5F5F5;
     text-decoration: underline;
+    font-style: italic;
     letter-spacing: 0rem;
     font-size: 1.2rem; }
 
@@ -102,14 +107,18 @@ html {
 .box-imagenes-index {
   width: 100%;
   height: 80rem;
+  margin: 3.5rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center; }
   .box-imagenes-index img {
-    width: 18.125rem;
+    width: 90%;
     height: 18.125rem;
     object-fit: cover; }
+  .box-imagenes-index :hover {
+    transition: .6s;
+    transform: scale(1.08); }
 
 /*INDEX*/
 /*DISCOGRAFIA*/
@@ -163,7 +172,8 @@ html {
 
 .gallery-img {
   width: 18rem;
-  height: 16rem; }
+  height: 16rem;
+  object-fit: cover; }
 
 /*MEDIA*/
 .box-media-live {
@@ -173,7 +183,7 @@ html {
   align-items: center; }
 
 .live-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
   border-bottom: #1F1C18;
   text-align: center; }
@@ -194,6 +204,9 @@ html {
   justify-content: space-evenly;
   align-items: center; }
 
+.card {
+  width: 90%; }
+
 .box-noticias1 {
   height: 100rem;
   display: flex;
@@ -212,6 +225,18 @@ html {
   height: 12rem;
   object-fit: cover; }
 
+.main-contacto {
+  height: 100vh; }
+
+@media only screen and (min-width: 600px) {
+  .gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .media-live iframe {
+    width: 35rem;
+    height: 15rem; } }
+
 @media only screen and (min-width: 768px) {
   .nav-logo-link {
     width: 45%; }
@@ -224,9 +249,12 @@ html {
       height: 25rem;
       object-fit: cover; }
   .box-imagenes-index {
-    height: 50rem;
+    height: 102rem;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
+    .box-imagenes-index img {
+      height: 23rem; }
   .box-discografia {
     height: 70rem;
     display: flex;
@@ -251,25 +279,7 @@ html {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 10rem;
-    grid-template-areas: "img3 img3 img4 img5"
-"img3 img3 img6 img6"
-"img3 img3 img2 img2"
-"img1 img1 img2 img2"
-"img7 img8 img8 img8"
-"img7 img8 img8 img8"
-"img10 img10 img11 img11"
-"img10 img10 img11 img11"
-"img14 img14 img9 img13"
-"img12 img12 img12 img12"
-"img12 img12 img12 img12"
-"img15 img15 img16 img16"
-"img17 img17 img18 img18"
-"img17 img17 img18 img18"
-"img23 img23 img23 img23"
-"img23 img23 img23 img23"
-"img20 img20 img21 img22"
-"img20 img20 img19 img19"
-"img20 img20 img19 img19"; }
+    grid-template-areas: "img3 img3 img4 img5" "img3 img3 img6 img6" "img3 img3 img2 img2" "img1 img1 img2 img2" "img7 img8 img8 img8" "img7 img8 img8 img8" "img10 img10 img11 img11" "img10 img10 img11 img11" "img14 img14 img9 img13" "img12 img12 img12 img12" "img12 img12 img12 img12" "img15 img15 img16 img16" "img17 img17 img18 img18" "img17 img17 img18 img18" "img23 img23 img23 img23" "img23 img23 img23 img23" "img20 img20 img21 img22" "img20 img20 img19 img19" "img20 img20 img19 img19"; }
   .box-gallery-img {
     height: 100%;
     width: 100%;
@@ -329,7 +339,7 @@ html {
   .live-title {
     margin-bottom: 1.25rem; }
   .media-live iframe {
-    width: 30rem;
+    width: 40rem;
     height: 17rem; }
   .box-noticias {
     height: 87rem;
@@ -354,6 +364,13 @@ html {
     bottom: .825rem;
     left: 1.25rem; } }
 
+@media only screen and (min-width: 960px) {
+  .box-discografia {
+    height: 45rem; }
+  .box-youtube iframe {
+    width: 20rem;
+    height: 10rem; } }
+
 @media only screen and (min-width: 1024px) {
   .navbar-collapse {
     justify-content: end; }
@@ -370,7 +387,8 @@ html {
   .box-imagenes-index {
     height: 50rem;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-around; }
     .box-imagenes-index img {
       width: 45%; }
   #footer {
@@ -430,7 +448,7 @@ html {
   .media-live {
     height: 85rem; }
     .media-live iframe {
-      width: 43rem;
+      width: 50rem;
       height: 25rem; }
   .live-title {
     margin-bottom: 1.25rem; }

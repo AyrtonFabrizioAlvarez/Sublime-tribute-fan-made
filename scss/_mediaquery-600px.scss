@@ -1,0 +1,14 @@
+@media only screen and (min-width:600px) {
+
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .media-live iframe {
+        width: 35rem;
+        height: 15rem;
+    }
+    
+}

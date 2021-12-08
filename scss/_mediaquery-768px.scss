@@ -19,10 +19,13 @@
     }
 
     .box-imagenes-index {
-        height: 50rem;
+        height: 102rem;
         flex-direction: row;
         flex-wrap: wrap;
-
+        justify-content: center;
+        img {
+            height: 23rem;
+        }
     }
 
     .box-discografia {
@@ -173,7 +176,7 @@
     }
 
     .media-live iframe {
-        width: 30rem;
+        width: 40rem;
         height: 17rem;
     }
 

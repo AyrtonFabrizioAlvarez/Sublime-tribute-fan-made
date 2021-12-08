@@ -33,15 +33,20 @@
 .box-imagenes-index {
     width: 100%;
     height: 80rem;
+    margin: 3.5rem 0rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     img {
-        width: 18.125rem;
+        width: 90%;
         height: 18.125rem;
         object-fit: cover;
-    }
+        }
+        :hover {
+            transition: .6s;
+            transform: scale(1.08);
+        }
 }
 
 
