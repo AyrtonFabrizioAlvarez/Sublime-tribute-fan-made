@@ -1,12 +1,23 @@
 @media only screen and (min-width:960px) {
 
-    .box-discografia {
-        height: 45rem;
+    .navbar-collapse {
+        justify-content: end;
     }
 
-    .box-youtube iframe {
-        width: 20rem;
-        height: 10rem;
+    .box-discografia {
+        height: 70rem;
     }
-    
+
+
+    .box-media-live {
+        height: 84rem;
+    }
+
+    .media-live {
+        width: 85%;
+        iframe {
+            height: 23rem;
+        }
+        }
+
 }

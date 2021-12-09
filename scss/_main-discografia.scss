@@ -4,6 +4,10 @@
 
         /*DISCOGRAFIA*/
 
+.main-discografia {
+    padding-bottom: 0!important;
+    width: 95%!important;
+}
 
 .box-discografia {
     width: 100%;
@@ -12,34 +16,31 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    a {
+        width: 80%;
+    }
 }
 
 .img-discografias {
-    width: 18.125rem;
-    height: 18.125rem;
+    width: 100%;
+    height: 18rem;
     border: 1.5px solid #1F1C18;
 }
 
 .box-media {
-    width: 100%;
-    height: 70rem;
-    margin-top: 4rem;
+    width: 100vw;
+    height: 90rem;
+    background-color: #c2c2c2;
+    margin-top: 3rem;
+    padding: 3rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    iframe {
+        width: 80%;
+        border-radius: .5rem;
+    }
 }
 
-.box-spotify {
-    border-radius: 5px;
-}
 
-.box-youtube {
-    width: 100%;
-    height: 43.75rem;
-    margin-top: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}

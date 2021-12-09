@@ -79,30 +79,14 @@
     }
 
     .box-media {
-        width: 100%;
-        height: 55rem;
-        margin-bottom: 4rem;
+        height: 65rem;
         justify-content: space-evenly;
         align-items: flex-start;
     }
 
-    .box-media iframe {
-        width: 25rem;
-        padding-left: .3125rem;
-    }
-    
-    .box-youtube {
-        width: 25rem;
-        height: 55rem;
-        padding: 0rem;
-        iframe {
-            height: 12rem;
-        }
-    }
-
     .box-spotify {
-        width: 25rem;
-        height: 55rem;
+        height: 90%;
+        padding-top: 8rem;
     }
 
     .carousel-img {
@@ -117,14 +101,6 @@
     .gallery-img:hover {
         transition: all 0.4s ease-in-out;
         transform: scale(0.975);
-    }
-
-    .media-live {
-        height: 85rem;
-        iframe {
-            width: 50rem;
-            height: 25rem;
-        }
     }
 
     .live-title {

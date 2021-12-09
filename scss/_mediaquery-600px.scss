@@ -1,14 +1,28 @@
 @media only screen and (min-width:600px) {
 
+
+    .box-discografia {
+        height: 135rem;
+        a {
+            width: 70%;
+        }
+    }
+    
+    .media-live {
+        width: 90%;
+        iframe {
+            height: 20rem;
+        }
+        }
+
     .gallery {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .media-live iframe {
-        width: 35rem;
-        height: 15rem;
+    .card-body {
+        height: 10rem;
     }
     
-}
+    }
